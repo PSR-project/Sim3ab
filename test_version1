@@ -1,0 +1,15 @@
+# GLOBAL VARIABLES
+wallWavelength_test = 1.0
+wallAmplitude_test = 0.1
+N_test = 8
+initialFlow_test = 2.5
+velocityVariance_test = 1.0
+time_test = 100.0
+
+number_sims = 100
+
+averageVelocityPlotBinNumber_test = 20
+numTimeIntervals_test = 200
+
+data_test = runSimulations(wallWavelength_test, wallAmplitude_test, N_test, initialFlow_test, velocityVariance_test, time_test, number_sims)
+visualization(data_test, wallWavelength_test, wallAmplitude_test, N_test, time_test, averageVelocityPlotBinNumber_test, numTimeIntervals_test)
